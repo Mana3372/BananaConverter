@@ -138,6 +138,156 @@ def banana_convert():
         result = banaconv * float(amount_unit)
         result_label.config(text=result)
 
+    #meter/kilometer
+    elif from_unit == "Meters" and to_unit == "Kilometers":
+        banaconv = 0.00100
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Kilometers" and to_unit == "Meters":
+        banaconv = 1000
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #meter/inch
+    elif from_unit == "Meters" and to_unit == "Inches":
+        banaconv = 39.37
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Inches" and to_unit == "Meters":
+        banaconv = 0.025
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #meter/feet
+    elif from_unit == "Meters" and to_unit == "Feet":
+        banaconv = 3.28
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Feet" and to_unit == "Meters":
+        banaconv = 0.30
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #meter/yard
+    elif from_unit == "Meters" and to_unit == "Yards":
+        banaconv = 1.09
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Yards" and to_unit == "Meters":
+        banaconv = 0.91
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #meter/miles
+    elif from_unit == "Meters" and to_unit == "Miles":
+        banaconv = 0.00062
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Miles" and to_unit == "Meters":
+        banaconv = 1609
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #kilometer/inch
+    elif from_unit == "Kilometers" and to_unit == "Inches":
+        banaconv = 39370
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Inches" and to_unit == "Kilometers":
+        banaconv = 0.000025
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #kilometer/feet
+    elif from_unit == "Kilometers" and to_unit == "Feet":
+        banaconv = 3281
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Feet" and to_unit == "Kilometers":
+        banaconv = 0.00030
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #kilometer/yard
+    elif from_unit == "Kilometers" and to_unit == "Yards":
+        banaconv = 1094
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Yards" and to_unit == "Kilometers":
+        banaconv = 0.00091
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #kilometer/miles
+    elif from_unit == "Kilometers" and to_unit == "Miles":
+        banaconv = 0.62
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Miles" and to_unit == "Kilometers":
+        banaconv = 1.61
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #inch/feet
+    elif from_unit == "Inches" and to_unit == "Feet":
+        banaconv = 0.083
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Feet" and to_unit == "Inches":
+        banaconv = 12.00
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #inch/yard
+    elif from_unit == "Inches" and to_unit == "Yards":
+        banaconv = 0.028
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Yards" and to_unit == "Inches":
+        banaconv = 36
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #inch/miles
+    elif from_unit == "Inches" and to_unit == "Miles":
+        banaconv = 0.000016
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Miles" and to_unit == "Inches":
+        banaconv = 63360
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #feet/yard
+    elif from_unit == "Feet" and to_unit == "Yards":
+        banaconv = 0.33
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Yards" and to_unit == "Feet":
+        banaconv = 3
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #feet/miles
+    elif from_unit == "Feet" and to_unit == "Miles":
+        banaconv = 0.00019
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Miles" and to_unit == "Feet":
+        banaconv = 5280
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
+    #yard/miles
+    elif from_unit == "Yards" and to_unit == "Miles":
+        banaconv = 0.00057
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+    elif from_unit == "Miles" and to_unit == "Yards":
+        banaconv = 1760
+        result = banaconv * float(amount_unit)
+        result_label.config(text=result)
+
 window = Tk()
 window.geometry('310x340+500+200')
 window.title('Banana Converter')
