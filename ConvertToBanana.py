@@ -289,7 +289,7 @@ def banana_convert():
         result_label.config(text=result)
 
 window = Tk()
-window.geometry('310x340+500+200')
+window.geometry('310x300+500+200')
 window.title('Banana Converter')
 window.resizable(height=FALSE, width=FALSE)
 banana_header = '#ffe135'
